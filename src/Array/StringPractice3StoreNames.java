@@ -15,28 +15,7 @@ public class StringPractice3StoreNames {
         Scanner scan = new Scanner(System.in);
         System.out.println("Please enter how many names you want to store: ");
 
-        int size= scan.nextInt();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        /* int size = scan.nextInt();
+        int size = scan.nextInt();
         scan.nextLine();
 
        String[] names = new String[size];
@@ -51,6 +30,6 @@ public class StringPractice3StoreNames {
             names[i]=scan.nextLine();
 
         } System.out.println(Arrays.toString(names));
-*/
+
     }
 }

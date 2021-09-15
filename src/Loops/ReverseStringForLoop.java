@@ -9,6 +9,7 @@ public class ReverseStringForLoop {
         String str = "1234321";
 
         String reverse = "";
+        String length = "";
 
         for (int index = str.length() - 1; index >= 0; index--) {
             reverse += str.charAt(index);
@@ -20,6 +21,15 @@ public class ReverseStringForLoop {
             System.out.println("The word is not a plaindrom");
         }
 
+        /*
+
+        for(int index=str.length();index>=0;index++){
+            length+=str.charAt(index);
+        }
+        System.out.println(length);
+
+
+         */
 
     }
 
