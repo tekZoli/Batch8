@@ -1,6 +1,6 @@
 package Loops;
 
-public class NestedPractice {
+public class NestedPracticeMonthsYears {
 
     public static void main(String[] args) {
 
@@ -23,8 +23,12 @@ public class NestedPractice {
 
             for(int month = 1; month<=12; month++){
 
-                System.out.print(month+" ");
+                System.out.print(" month "+month+" ");
 
+                for(int week =1; week<=4; week++){
+
+                    System.out.println(" week " + week);
+                }
             }
             System.out.println();
 

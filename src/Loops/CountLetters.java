@@ -7,6 +7,10 @@ public class CountLetters {
         //count how many  "i" and "I" are in a given sentence
         //print >>>there are .... in the given sentence
 
+
+
+
+
         String sent = "I want to solve this question by myself this time iiiiiiiii IIIIIIIIII";
         //sent = sent.replace("i","");
         int index = 0;
@@ -23,6 +27,8 @@ public class CountLetters {
 
         }
         System.out.println("There are " +count+" i or I in the sentence");
+
+
 
     }
 }

@@ -2,7 +2,7 @@ package Loops;
 
 import java.util.Scanner;
 
-public class Practice4 {
+public class Practice4DivisibleNumber {
 
     public static void main(String[] args) {
         /*

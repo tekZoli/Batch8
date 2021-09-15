@@ -2,7 +2,7 @@ package Loops;
 
 import java.util.Scanner;
 
-public class Practice6 {
+public class Practice6MultiTable {
     public static void main(String[] args) {
         /*
         ask user to give a number and create multiplication table from 1 to 10

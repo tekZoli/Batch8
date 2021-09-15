@@ -1,6 +1,6 @@
 package Loops;
 
-public class PPractice7 {
+public class Practice7PrintEvLett {
 
     public static void main(String[] args) {
         //Summer ----> print out every single letter from this word

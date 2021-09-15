@@ -17,6 +17,30 @@ public class ElseIfPractice {
 
         int number = input.nextInt();
 
+
+        if(number<=5 ){
+            System.out.println("Your number is between 0 to 5");
+        }else if( number>=6 && number<=10 ){
+            System.out.println("your number is between 6 and 10");
+        }else if( number>=11 && number<=15){
+            System.out.println("Your number is between 11 and 15");
+        }else{
+            System.out.println("Your number doesn't fall into these categories");
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+       /* int number = input.nextInt();
+
         if (number >= 0 && number <= 5) {
             System.out.println("Your number is between 0/5");
         } else if (number > 5 && number <= 10) {
@@ -28,5 +52,7 @@ public class ElseIfPractice {
         } else {
             System.out.println("Your number does not fall into any range of 0 to 20");
         }
+
+        */
     }
 }

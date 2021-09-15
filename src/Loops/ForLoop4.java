@@ -11,15 +11,26 @@ public class ForLoop4 {
          */
 
         String str = "aBc1234^&*@#!!";
-        char ch = 0;
-        int numb = 0;
+        int letterCounter = 0;
+        int charCounter = 0;
+        int numCounter = 0;
 
 
-        for (  ; ; ch++ ){
+        for ( int i=0 ; i<str.length(); i++ ){
 
-            //System.out.println("these are the chars"+);
+            if(str.charAt(i)>='a' && str.charAt(i)<='z' || str.charAt(i)>='A' && str.charAt(i)<='Z'){
+                letterCounter++;
+            }else if(str.charAt(i)>='0' && str.charAt(i)<='9'){
+                numCounter++;
+            }else{
+                charCounter++;
+            }
+
 
         }
+        System.out.println(letterCounter);
+        System.out.println(charCounter);
+        System.out.println(numCounter);
 
 
 

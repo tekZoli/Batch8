@@ -2,7 +2,7 @@ package Loops;
 
 import java.util.Scanner;
 
-public class ForLoopPractice1 {
+public class ForLoopPPosNum {
 
     public static void main(String[] args) {
 

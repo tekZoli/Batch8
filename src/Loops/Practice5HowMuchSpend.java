@@ -3,7 +3,7 @@ package Loops;
 
 import java.util.Scanner;
 
-public class Practice5 {
+public class Practice5HowMuchSpend {
     public static void main(String[] args) {
 
         /*

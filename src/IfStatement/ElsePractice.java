@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class ElsePractice {
     public static void main(String[] args) {
 
-    }
+
 
     /*
     -ask user to enter an int value
@@ -14,7 +14,25 @@ public class ElsePractice {
     -otherwise print other number
      */
 
-    /*Scanner input = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("Please enter a number");
+
+        int number = scan.nextInt();
+
+        if (number % 2 == 0) {
+            System.out.println("Your number is even");
+
+        }else{
+            System.out.println("Your number is not even");
+        }
+
+
+
+
+
+   /*
+    Scanner input = new Scanner(System.in);
 
     System.out.println("Please enter a interger value");
 
@@ -29,7 +47,5 @@ public class ElsePractice {
     */
 
 
-
-
-
+    }
 }
