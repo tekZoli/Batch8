@@ -20,9 +20,11 @@ public class HW8T2 {
                 if (i % j == 0) sum = sum + j;
             }
             if (i == sum) {
-                System.out.print(i + "");
+                System.out.print(i + " ");
             }
         }
+
+
     }
 }
 

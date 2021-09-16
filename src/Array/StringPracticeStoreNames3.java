@@ -3,7 +3,7 @@ package Array;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class StringPractice3StoreNames {
+public class StringPracticeStoreNames3 {
 
     public static void main(String[] args) {
         /*

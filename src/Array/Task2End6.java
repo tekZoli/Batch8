@@ -9,7 +9,7 @@ public class Task2End6 {
         // using loop print out only numbers that are greater than 10
         //store numbers that are less than 10 in another array
 
-        int[] numbers={};
+        int[] numbers={45,5,6,47,57,8,12,0,30};
         int smallNumbers[]=new int[numbers.length];
 
         for(int i=0; i<numbers.length;i++) {

@@ -12,7 +12,7 @@ public class HW8T3 {
 
         int number = scan.nextInt();
 
-        int sum=0;
+        int sumOfCubes=0;
        int finish = number;
        int first;
 
@@ -20,11 +20,11 @@ public class HW8T3 {
        for( ;number>0; ){//153
 
            first=number%10;//3//5//1
-           sum=sum+(first*first*first);//27//27+125//152+1
+           sumOfCubes=sumOfCubes+(first*first*first);//27//27+125//152+1
            number=number/10;//15//1//0
 
        }
-           if(finish==sum){
+           if(finish==sumOfCubes){
 
                System.out.println("Your number is an armstrong number");
            }else{
