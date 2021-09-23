@@ -24,8 +24,6 @@ public class MultiDimesional17 {
 
         for(int i=0; i<states.length; i++){
 
-
-
             for (int j=0; j<states[i].length; j++){
                 stateEmails[c]=states[i][j].toLowerCase()+"@info.com";
                 System.out.println(states[i][j]);
@@ -34,21 +32,13 @@ public class MultiDimesional17 {
 
                 System.out.println("******************************************");
 
-
-
-
                 for(String[] state : states){
-
-
-
                     for(String st : state){
 
                         System.out.println(st.toLowerCase()+"@info.com");
                     }
                 }
-
                 //print these states in lower case
-
                 // ny@info.com......
                 //store these email adresses in an array
 

@@ -8,7 +8,7 @@ public class MultiDimensionalArray16 {
 
         int[][] numbers = new int[3][4];
 
-        numbers[0][0] = 11;
+        numbers[0][0]=11;
         numbers[0][1]=22;
         numbers[0][2]=33;
         numbers[0][3]=44;
@@ -26,6 +26,13 @@ public class MultiDimensionalArray16 {
             for(int j=0; j< numbers[i].length; j++){
 
                 System.out.println(numbers[i][j]);
+            }
+        }
+
+        for( int[] array : numbers){
+
+            for(int number : array){
+                System.out.println("*"+number);
             }
         }
 
