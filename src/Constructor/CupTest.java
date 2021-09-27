@@ -19,11 +19,14 @@ public class CupTest {
 
 
         Cup c3 = new Cup(16,true, 8 );
-        c1=null;
+
         Cup c4 = c1;
+        c1=null;
 
         System.out.println(c1);
         System.gc();
+
+
 
     }
 }

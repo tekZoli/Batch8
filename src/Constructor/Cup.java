@@ -13,8 +13,15 @@ public class Cup {
         this.liquidAmount=inputLiquidAmount;
     }
 
-    public Cup (){
+    public Cup (int newSize, boolean newClean){
+        this.size=newSize;
+        this.isClean=newClean;
+        System.out.println("This is the two argument costructor");
+    }
 
+    public Cup(){
+        this(33, true);
+        System.out.println("This is the no argument costructor");
     }
 
     public void info(){
@@ -23,6 +30,10 @@ public class Cup {
     }
     public String toString(){
         return "Size is: "+size+" is clean "+isClean+ " liquid amount is: "+liquidAmount;
+    }
+
+    protected void finalize(){
+        System.out.println("Now one object went to the garbage");
     }
 
 }
