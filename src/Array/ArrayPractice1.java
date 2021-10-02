@@ -33,6 +33,10 @@ public class ArrayPractice1 {
 
         }
 
+        for(int number : numbers){
+            System.out.println("For each loop "+number);
+        }
+
 
     }
 }

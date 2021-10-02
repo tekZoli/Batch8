@@ -112,14 +112,5 @@ public class Practice1 {
         System.out.println(list3);
         System.out.println(list3.size());
 
-
-
-
-
-
-
-
-
-
     }
 }
