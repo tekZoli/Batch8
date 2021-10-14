@@ -29,7 +29,7 @@ public class InterviewQuestion {
     }
 
     public static void nameSearch(ArrayList<String> allNames, String name){
-        String searchName=name;
+        String searchName="Bota";
         for (int i = 0; i < allNames.size(); i++) {
             if (allNames.get(i).equals(searchName)){
                 System.out.println("Your name is there");

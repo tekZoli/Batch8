@@ -72,25 +72,43 @@ public class SuperMarket {
 
 //    Create the method to print the Chips.(do it with the list, think about the reason why )
 
-    public void printChips() {
-        ArrayList<String> allChipsNames = new ArrayList<>();
-        for (String chipsProduct : chips) {
-            allChipsNames.add(chipsProduct);
+    public void printChips(){
+        ArrayList<String> allChipsName = new ArrayList<>();
+        for(String chipsProduct : chips){
+            allChipsName.add(chipsProduct);
         }
-        System.out.println(allChipsNames);
+        System.out.println(allChipsName);
     }
 
+//    public void printChips() {
+//        ArrayList<String> allChipsNames = new ArrayList<>();
+//        for (String chipsProduct : chips) {
+//            allChipsNames.add(chipsProduct);
+//        }
+//        System.out.println(allChipsNames);
+//    }
+
     //    Create the method to print the Cookies (do it with the list, think about the reason why )
-    public void printCookies() {
-        ArrayList<String> allCookiesNames = new ArrayList<>();
-        for (String chipsProduct : chips) {
-            allCookiesNames.add(chipsProduct);
-        }
+
+    public void printCookies(){
+       ArrayList<String> allCookiesNames = new ArrayList<>();
+       for(String cookiesProd : cookies){
+           allCookiesNames.add(cookiesProd);
+       }
         System.out.println(allCookiesNames);
     }
+//    public void printCookies() {
+//        ArrayList<String> allCookiesNames = new ArrayList<>();
+//        for (String chipsProduct : chips) {
+//            allCookiesNames.add(chipsProduct);
+//        }
+//        System.out.println(allCookiesNames);
+//    }
 
     //TASK 3:
     //    Create the method to print the DairyPrice.(do it with the list, think about the reason why )
+
+
     public void printDairyPrice() {
         ArrayList<Double> dPrice = new ArrayList<>();
         for (Double priceProd : dairyPrice) {
