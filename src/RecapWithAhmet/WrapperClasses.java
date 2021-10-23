@@ -1,12 +1,19 @@
 package RecapWithAhmet;
 
 public class WrapperClasses {
-    //what is wrapper classes
-    //it is a process of converting the object to primitive or primitive to object
+    //POSSIBLE INTERVIEW QUESTION:
+    //1) what is wrapper class?
+    //2)How many types of wrapper classes do you know?
+    //3)Can you explain what they are with a SIMPLE example?
 
-    //how many types of wrapper classes do you know
-    //2 types, autoboxing(it converts primitive data to object) int a=5; Integer n = new Integer(a)
-    // and unboxing(it converts object data to primitive) Integer a =(int)5; CAST!!!!!!!
+    //1) it is a process of CONVERTING the OBJECT to PRIMITIVE
+    //or PRIMITIVE TO OBJECT
+    //2)There is two types of it.
+    //3) Autoboxing: it converts PRIMITIVE data to OBJECT
+    // int a = 5; INTEGER i = new INTEGER(a)
+    //*) UNBOXING : it converts OBJECT data to PRIMITIVE
+    // INTEGER a = (int) 5; // **CAST***
 
-    //can you explain what they are with simple example
 }
+
+

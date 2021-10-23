@@ -23,13 +23,13 @@ public class LrgestNumber2 {
 
 
 
-        int[] array = {100, 300, 200, 450, 350};
+        int[] array = {12 ,13 ,15 ,12 ,0, -1};
         
         int lN= 0;
         int sLN=0;
 
         for (int i = 0; i < array.length; i++) {
-            for (int j = 1; j < array.length; j++) {
+            for (int j = i+1; j < array.length; j++) {
                 if (array[j] > array[i]) {
                     lN=array[j];
                     sLN=array[i];

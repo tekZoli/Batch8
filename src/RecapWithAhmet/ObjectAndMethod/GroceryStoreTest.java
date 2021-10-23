@@ -2,36 +2,34 @@ package RecapWithAhmet.ObjectAndMethod;
 
 public class GroceryStoreTest {
     public static void main(String[] args) {
+        GroceryStore Houston = new GroceryStore(534,0.99,429,0.87);
+        GroceryStore Seattle = new GroceryStore(765, 0.86,842,0.91);
 
-        GroceryStores houstonStore= new GroceryStores(534,0.99, 429, 0.87);
-        GroceryStores seattleStore = new GroceryStores(765, 0.86, 842, 0.91);
+//        Houston.appleSoldYearly=534;
+//        Houston.retailPriceOfApple=0.99;
+//        Houston.orangeSoldYearly=429;
+//        Houston.retailPriceOfOrange=0.87;
+//
+//        Seattle.appleSoldYearly=765;
+//        Seattle.retailPriceOfApple=0.86;
+//        Seattle.orangeSoldYearly=842;
+//        Seattle.retailPriceOfOrange=0.91;
 
-       houstonStore.applesPerYear=534;
-        houstonStore.applePrice=0.99;
-        houstonStore.orangesPerYear=429;
-        houstonStore.orangePrice=0.87;
-        System.out.println("Houston Store: ");
-        System.out.println("Apples sold - "+ houstonStore.applesPerYear);
-        System.out.println("Apples retail cost - "+ houstonStore.applePrice);
+        System.out.println("Apple sold - "+Houston.appleSoldYearly);
+        System.out.println("Apple Retail Price - " + Houston.retailPriceOfApple);
+        System.out.println("Orange sold - "+Houston.orangeSoldYearly);
+        System.out.println("Orange Retail Price - " + Houston.retailPriceOfOrange);
 
-        System.out.println("Oranges retail cost - "+ houstonStore.orangePrice);
-        System.out.println("Orenges sold per Year - "+ houstonStore.orangesPerYear);
+        System.out.println("Apple sold - "+Seattle.appleSoldYearly);
+        System.out.println("Apple Retail Price - " + Seattle.retailPriceOfApple);
+        System.out.println("Orange sold - "+Seattle.orangeSoldYearly);
+        System.out.println("Orange Retail Price - " + Seattle.retailPriceOfOrange);
 
-        seattleStore.applesPerYear=765;
-        seattleStore.applePrice=0.86;
-        seattleStore.orangesPerYear=842;
-        seattleStore.orangePrice=0.91;
-
-        System.out.println("Seattle Store: ");
-        System.out.println("Apples sold - "+ seattleStore.applesPerYear);
-        System.out.println("Apples retail cost - "+ seattleStore.applePrice);
-
-        System.out.println("Oranges retail cost - "+ seattleStore.orangePrice);
-        System.out.println("Orenges sold per Year - "+ seattleStore.orangesPerYear);
-
-        houstonStore.grossRevenue("Houston");
-        seattleStore.grossRevenue("Seattle");
-
+        int value2=Houston.GrossRevenue1("Houston");
+        int value4= Seattle.GrossRevenue1("Seattle");
+        //double value3 =Seattle.GrossRevenue1("Seattle");
+        //System.out.println(4+5+value2);
+        System.out.println(value4);
 
 
 

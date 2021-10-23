@@ -1,26 +1,34 @@
 package RecapWithAhmet.ObjectAndMethod;
 
-public class GroceryStores {
+    class GroceryStore {
+    int appleSoldYearly;
+    double retailPriceOfApple;
+    int orangeSoldYearly;
+    double retailPriceOfOrange;
+    //the revenue of the HOuston is : result
+    // the revenue of the Seattle is : result
 
-    int applesPerYear;
-    double applePrice;
-    int orangesPerYear;
-    double orangePrice;
-
-    public GroceryStores(int applesPerYear, double applePrice, int orangesPerYear, double orangePrice) {
-        this.applesPerYear = applesPerYear;
-        this.applePrice = applePrice;
-        this.orangesPerYear = orangesPerYear;
-        this.orangePrice = orangePrice;
+    public GroceryStore(int appleSoldYearly, double retailPriceOfApple, int orangeSoldYearly, double retailPriceOfOrange) {
+        this.appleSoldYearly = appleSoldYearly;
+        this.retailPriceOfApple = retailPriceOfApple;
+        this.orangeSoldYearly = orangeSoldYearly;
+        this.retailPriceOfOrange = retailPriceOfOrange;
     }
 
+    GroceryStore(){
 
 
-public void grossRevenue(String city){
-double revenue = (applesPerYear*applePrice)+(orangesPerYear*orangePrice);
-    System.out.println("The revenue of "+city+" is "+ revenue);
-}
+    }
+    public void GrossRevenue(String city){
+        double revenue= (appleSoldYearly*retailPriceOfApple)
+                +(orangeSoldYearly*retailPriceOfOrange);
+        System.out.println("the revenue of the "+ city + " is " + revenue);
 
+    }
+    public int GrossRevenue1(String city){
+        double revenue= (appleSoldYearly*retailPriceOfApple)
+                +(orangeSoldYearly*retailPriceOfOrange);
+        return (int) revenue;
 
-
+    }
 }

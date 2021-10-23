@@ -7,12 +7,11 @@ public class SET {
     //can you tell me the types of collection
     //HashSet--stores objects randomly
     //LinkedHashSet --insertion order
-    //TreeSet-- stores the object in sascending order, no null values
+    //TreeSet-- stores the object in ascending order, no null values
     //                                               ^
     //                                              |
     //can you explain the differences between them |
 
     // Set<> set =new Treeset
 
-    //
 }

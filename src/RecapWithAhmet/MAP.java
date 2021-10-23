@@ -3,7 +3,7 @@ package RecapWithAhmet;
 public class MAP {
 
     //can you tell me about map and why do you use it?
-    //balance is key and customer is the value/is the way of storing data as a key and value format
+    //balance is key and customer is the value????????/is the way of storing data as a key and value format
 
 
     //what is the connection between map and collections?

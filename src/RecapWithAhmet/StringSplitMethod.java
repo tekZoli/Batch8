@@ -6,17 +6,23 @@ public class StringSplitMethod {
     public static void main(String[] args) {
 
 
-        //Split comes from String object
-        //we are using split method to split the words from space
-        //returns array
+        //Split method comes from String object
+        // The main reason people are using split
+        //method to split the words from the space
 
-        String sentence = "Today is a beautiful day to recap java with you guys";
 
-        String[] sent = sentence.split(" ");
-        System.out.println(Arrays.toString(sent));
-        //System.out.println(sent.length);
-        //System.out.println(sent[]);
+
+
+            String sentence = "Today is beautiful day to recap" +
+                    "java with you guys";
+
+            String[] words = sentence.split(" ");
+            for (int i = 0; i < words.length; i++) {
+                System.out.print(words[i].length() + ",");
+            }
+//        System.out.println(Arrays.toString(words));
+//        System.out.println(words[0].length());
+        }
 
 
     }
-}
