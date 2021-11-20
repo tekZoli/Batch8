@@ -10,7 +10,7 @@ public class JavaPrimitoveDataAsciiTable {
    of the java program.
    JVM--> is responsible for converting the byte code to the machine
    language.
-   ***** PIRIMITIVE DATA**************
+   ***** PIRIMITIVE DATA **************
    WHOLE NUMBER
    INT
    LONG

@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Duplicates {
     public static void main(String[] args) {
 
-//
+
 //                String str = "Here we are at w3schools";
 //                int cnt = 0;
 //                char[] inp = str.toCharArray();
@@ -20,7 +20,7 @@ public class Duplicates {
 //                    }
 //                }
 //            }
-//
+
 //
 //
 //    }
@@ -37,21 +37,30 @@ public class Duplicates {
 //                }
 //            }
 
+//        String str = "everybody talking loud";
+//        char[] array =str.toCharArray();
+//
+//        for (int i = 0; i < str.length(); i++) {
+//            for (int j = i+1; j < str.length(); j++) {
+//                if(array[i]==array[j]){
+//                    System.out.println(array[j]);
+//                }
+//
+//            }
+//
+//        }
+
+
         String str = "everybody talking loud";
-        char[] array =str.toCharArray();
+        char[] array = str.toCharArray();
 
         for (int i = 0; i < str.length(); i++) {
             for (int j = i+1; j < str.length(); j++) {
                 if(array[i]==array[j]){
-                    System.out.println(array[j]);
+                    System.out.print(array[j]+" ");
                 }
-
             }
-
         }
-
-
-
 
 
 
